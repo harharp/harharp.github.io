@@ -1,136 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ancient Wisdom</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
-
-<style>
-body {
-    margin: 0;
-    padding: 0;
-    background: #d8c8a5;
-    background-image:
-        radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1px);
-    background-size: 4px 4px;
-    color: #2c1d0f;
-    font-family: 'EB Garamond', serif;
-    line-height: 1.9;
-}
-
-.manuscript {
-    max-width: 850px;
-    margin: 50px auto;
-    padding: 60px;
-    background: #f4ecd8;
-    border: 8px solid #8b6b3d;
-    box-shadow: 0 0 30px rgba(0,0,0,0.25);
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Cinzel', serif;
-    font-size: 3em;
-    letter-spacing: 4px;
-    margin-bottom: 10px;
-}
-
-.subtitle {
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 40px;
-}
-
-.divider {
-    text-align: center;
-    font-size: 1.5em;
-    margin: 30px 0;
-    color: #7b5a2f;
-}
-
-.chapter {
-    margin-top: 40px;
-}
-
-.chapter-title {
-    text-align: center;
-    font-family: 'Cinzel', serif;
-    font-size: 1.4em;
-    margin-bottom: 20px;
-}
-
-.verse {
-    margin-bottom: 15px;
-    text-align: justify;
-}
-
-.verse-number {
-    color: #8b6b3d;
-    font-weight: bold;
-}
-
-footer {
-    margin-top: 50px;
-    text-align: center;
-    font-size: 0.9em;
-    color: #6d5a3a;
-}
-</style>
-</head>
-
 <body>
+
+<button onclick="setLang('en')">English</button>
+<button onclick="setLang('pa')">ਪੰਜਾਬੀ</button>
 
 <div class="manuscript">
 
-    <h1>ਨਿਰੰਕਾਰ</h1>
+    <h1>
+        <span class="en">NIRANKAR</span>
+        <span class="pa">ਨਿਰੰਕਾਰ</span>
+    </h1>
 
     <div class="subtitle">
-        ਸਾਧਸੰਗਤ ਨਾਲ ਜੁੜੋ ਅਤੇ ਨਾਮ ਜਪੋ
+        <span class="en">Join the Sadhsangat and meditate on the Divine Name</span>
+        <span class="pa">ਸਾਧਸੰਗਤ ਨਾਲ ਜੁੜੋ ਅਤੇ ਨਾਮ ਜਪੋ</span>
     </div>
 
     <div class="divider">✦ ✧ ✦</div>
 
     <div class="chapter">
-        <div class="chapter-title"> ਨਿਯਮ</div>
 
-        <div class="verse">
-            <span class="verse-number">1.</span> ਸਾਧਸੰਗਤ ਵਿੱਚ ਆਓ
+        <div class="chapter-title">
+            <span class="en">Rules</span>
+            <span class="pa">ਨਿਯਮ</span>
         </div>
 
         <div class="verse">
-            <span class="verse-number">2.</span> ਨਾਮ ਜਪੋ
-            
+            <span class="verse-number">1.</span>
+            <span class="en">Attend the Sadhsangat</span>
+            <span class="pa">ਸਾਧਸੰਗਤ ਵਿੱਚ ਆਓ</span>
         </div>
-  <div class="divider">❦</div>
+
+        <div class="verse">
+            <span class="verse-number">2.</span>
+            <span class="en">Meditate on the Divine Name</span>
+            <span class="pa">ਨਾਮ ਜਪੋ</span>
+        </div>
+
+        <div class="divider">❦</div>
+
         <div class="verse">
             <span class="verse-number">3.</span>
-          ਰੱਬ ਅੱਗੇ ਅਰਦਾਸ ਕਰੋ
+            <span class="en">Pray to God</span>
+            <span class="pa">ਰੱਬ ਅੱਗੇ ਅਰਦਾਸ ਕਰੋ</span>
         </div>
 
         <div class="verse">
             <span class="verse-number">4.</span>
-          ਰੱਬ ਦਾ ਸ਼ੁਕਰਾਨਾ ਕਰੋ
+            <span class="en">Give thanks to God</span>
+            <span class="pa">ਰੱਬ ਦਾ ਸ਼ੁਕਰਾਨਾ ਕਰੋ</span>
         </div>
-    </div>
 
-    <div class="divider">❦</div>
-
-   
+        <div class="divider">❦</div>
 
         <div class="verse">
             <span class="verse-number">5.</span>
-          ਹਮੇਸ਼ਾ ਰੱਬ ਨੂੰ ਯਾਦ ਰੱਖੋ
+            <span class="en">Always remember God</span>
+            <span class="pa">ਹਮੇਸ਼ਾ ਰੱਬ ਨੂੰ ਯਾਦ ਰੱਖੋ</span>
         </div>
 
-      
-    <footer>
-        ❦ ❦
-    </footer>
-<a href="https://harharlab.blogspot.com/2026/06/discussion.html">ਗੱਲ ਬਾਤ / Discussion
-</a> 
+    </div>
+
+    <footer>❦ ❦</footer>
+
+    <a href="https://harharlab.blogspot.com/2026/06/discussion.html">
+        <span class="en">Discussion</span>
+        <span class="pa">ਗੱਲਬਾਤ</span>
+    </a>
+
 </div>
 
+<script>
+function setLang(lang) {
+
+    document.querySelectorAll('.en').forEach(el => {
+        el.style.display = (lang === 'en') ? 'inline' : 'none';
+    });
+
+    document.querySelectorAll('.pa').forEach(el => {
+        el.style.display = (lang === 'pa') ? 'inline' : 'none';
+    });
+
+    localStorage.setItem('lang', lang);
+}
+
+const savedLang = localStorage.getItem('lang') || 'pa';
+setLang(savedLang);
+</script>
+
 </body>
-</html>
